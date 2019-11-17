@@ -3,3 +3,6 @@
 
 
 Read more [here](./docs/test.md)
+
+[and here also]: (./docs/test.md)
+
