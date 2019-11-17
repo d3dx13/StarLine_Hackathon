@@ -69,7 +69,7 @@ export TURTLEBOT3_MODEL=${TB3_MODEL}
 roslaunch turtlebot3_gazebo turtlebot3_world.launch
 ```
 
-Если на этом этапе вы увидили нечто подобное:
+Если на этом этапе вы увидели нечто подобное:
 
 ![img](images/turtlebot3_world_bugger.png)
 
@@ -86,7 +86,7 @@ cd ~
 git clone https://github.com/d3dx13/StarLine_Hackathon.git
 ```
 
-После сего настрою встроеную папку catkin_ws
+После сего настрою встроенную папку catkin_ws
 
 ```bash
 echo "source ~/StarLine_Hackathon/catkin_ws/devel/setup.bash" >> ~/.bashrc
