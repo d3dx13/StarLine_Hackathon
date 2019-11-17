@@ -42,16 +42,6 @@ cd ~/catkin_ws/src
 catkin_init_workspace
 cd ~/catkin_ws
 catkin_make
-
-
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
-
-echo "source ~/catkin_ws/devel/setup.bash" >> ~/.bashrc
-echo "source ~/StarLine_Hackathon/catkin_ws/devel/setup.bash" >> ~/.bashrc
-echo "export TB3_MODEL=\"waffle\"" >> ~/.bashrc
-echo "export TURTLEBOT3_MODEL=${TB3_MODEL}" >> ~/.bashrc
-source ~/.bashrc
 ```
 
 ##### 3. Установка пакетов turtlebot3 и симуляции
@@ -73,13 +63,43 @@ cd ~/catkin_ws && catkin_make
 
 Проверка корректности установки:
 
-```
+```bash
+export TB3_MODEL="waffle"
+export TURTLEBOT3_MODEL=${TB3_MODEL}
 roslaunch turtlebot3_gazebo turtlebot3_world.launch
 ```
 
-Если на этом этапе вы увидили нечто подобное
+Если на этом этапе вы увидили нечто подобное:
 
 ![img](images/turtlebot3_world_bugger.png)
 
 Тогда вы всё сделали правильно.
+
+Закрывайте симуляцию путём нажатия ctrl+C в терминале. <u>Это может занять некоторое время.</u>
+
+##### 4. Клонирование этого репозитория и настройка ROS для него
+
+Подразумевается, что вы читаете это на сайте ~~pornhub~~ github, однако для работы нам потребуется клонировать репозиторий. Для простоты клонирую его в домашнюю папку.
+
+```bash
+cd ~
+git clone https://github.com/d3dx13/StarLine_Hackathon.git
+```
+
+После сего настрою встроеную папку catkin_ws
+
+```bash
+echo "source ~/StarLine_Hackathon/catkin_ws/devel/setup.bash" >> ~/.bashrc
+echo "export TB3_MODEL=\"waffle\"" >> ~/.bashrc
+echo "export TURTLEBOT3_MODEL=${TB3_MODEL}" >> ~/.bashrc
+source ~/.bashrc
+```
+
+Далее необходимо настроить удалённую работу с роботом. Если вы запускаете всё на вашем компьютере, вставьте localhost вместо обоих адресов.
+
+```bash
+echo "export ROS_MASTER_URI=http://{IP адрес turtlebot3}:11311" >> ~/.bashrc
+echo "export ROS_HOSTNAME={IP адрес данного компьютера}" >> ~/.bashrc
+source ~/.bashrc
+```
 
