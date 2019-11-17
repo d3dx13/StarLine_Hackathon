@@ -7,5 +7,5 @@
 
 #### Оглавление документов:
 
-Установка linux, ROS и окружения для работы с turtlebot3 [Setup](./docs/Setup.md)
+1. Установка linux, ROS и окружения для работы с turtlebot3 [Setup](./docs/Setup.md)
 
