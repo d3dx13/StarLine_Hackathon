@@ -3,7 +3,7 @@
 
 [Ссылка на хакатон](https://robofinist.ru/event/info/short/id/339)
 
-[Регламент хакатона Беспилотный автомобиль StarLine.pdf](docs/src/Regulations.pdf) 
+[Регламент хакатона Беспилотный автомобиль StarLine.pdf](docs/src/StarLine Hackathon Regulation.pdf) 
 
 #### Оглавление документов:
 
