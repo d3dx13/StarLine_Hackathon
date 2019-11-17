@@ -106,3 +106,10 @@ source ~/.bashrc
 ##### 5. Заключение
 
 На этом установка окончена. Вы можете разрабатывать под ROS на python. Если же хотите использовать C++ [курите](http://wiki.ros.org/ROS/Tutorials)
+
+##### Для сборки нашего проекта использовать:
+
+```bash
+cd ~/StarLine_Hackathon/catkin_ws
+catkin_make
+```
