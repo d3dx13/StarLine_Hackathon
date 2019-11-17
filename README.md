@@ -3,5 +3,5 @@
 
 
 
-[]: docs/test.md	"TEST"
+[a relative link]: ./docs/test.md	"TEST"
 
