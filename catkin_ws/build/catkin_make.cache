@@ -1,0 +1,2 @@
+
+-DCATKIN_DEVEL_PREFIX=/home/d3dx13/StarLine_Hackathon/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/d3dx13/StarLine_Hackathon/catkin_ws/install -G Unix Makefiles
