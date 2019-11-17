@@ -79,3 +79,7 @@ roslaunch turtlebot3_gazebo turtlebot3_world.launch
 
 Если на этом этапе вы увидили нечто подобное
 
+![img](images/turtlebot3_world_bugger.png)
+
+Тогда вы всё сделали правильно.
+
