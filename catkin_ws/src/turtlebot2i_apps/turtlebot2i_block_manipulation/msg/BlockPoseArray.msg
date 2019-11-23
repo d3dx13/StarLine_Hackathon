@@ -1,2 +1,0 @@
-std_msgs/Header header
-turtlebot2i_block_manipulation/BlockPose[] poses
