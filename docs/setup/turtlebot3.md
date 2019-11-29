@@ -17,6 +17,12 @@ cd ~/catkin_ws/src/
 git clone https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
 cd ~/catkin_ws && catkin_make
 
+cd ~/catkin_ws/src/
+git clone https://github.com/ROBOTIS-GIT/turtlebot3_autorace.git
+cd ~/catkin_ws && catkin_make
+
+sudo apt-get install ros-kinetic-image-transport ros-kinetic-cv-bridge ros-kinetic-vision-opencv python-opencv libopencv-dev ros-kinetic-image-proc
+
 echo "export TB3_MODEL=\"waffle\"" >> ~/.bashrc
 echo "export TURTLEBOT3_MODEL=${TB3_MODEL}" >> ~/.bashrc
 source ~/.bashrc
