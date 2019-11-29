@@ -19,4 +19,5 @@
 
   <!-- Move base -->
  <include file="$(find turtlebot_navigation)/launch/includes/move_base.launch.xml"/>
+ <param name="move_base/DWAPlannerROS/max_rot_vel" value="0.4"/>
 </launch>
