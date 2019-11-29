@@ -87,11 +87,11 @@ roslaunch starbot_gazebo turtlebot_world.launch
 
 Если симуляция заработала, а также никакой ~~дебил~~ разработчик не сделал **git push --force**   
 
-![img](images/git_push_force.jpg)
+![img](../images/git_push_force.jpg)
 
 Тогда вы увидите градус фантазии последнего, кто редачил этот мир:
 
-![img](images/ricardo_milos_world.jpg)
+![img](../images/ricardo_milos_world.jpg)
 
 Закрывайте (или не надо) симуляцию путём нажатия ctrl+C в терминале. <u>Это может занять некоторое время.</u>
 

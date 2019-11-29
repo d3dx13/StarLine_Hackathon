@@ -39,7 +39,7 @@ roslaunch turtlebot_gazebo turtlebot_world.launch
 
 Если на этом этапе вы увидели нечто подобное:
 
-![img](images/B08463_03_02.jpg)
+![img](../images/B08463_03_02.jpg)
 
 Тогда вы всё сделали правильно.
 

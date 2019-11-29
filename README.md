@@ -13,10 +13,12 @@
 
 #### Миры:
 
-
+![img](docs/images/7TPF.gif)
 
 #### Технологии:
 
-
+![img](docs/images/7TPF.gif)
 
 #### Тут могла быть ваша реклама:
+
+![img](docs/images/ricardo.gif)
