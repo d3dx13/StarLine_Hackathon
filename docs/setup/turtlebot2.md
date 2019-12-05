@@ -18,17 +18,17 @@ sudo sh -c 'echo "deb-src http://us.archive.ubuntu.com/ubuntu/ xenial main restr
 ```
 sudo apt-get update
 
-sudo apt-get install ros-kinetic-librealsense
+sudo apt-get install ros-kinetic-librealsense -y
 
-sudo apt-get install ros-kinetic-turtlebot
+sudo apt-get install ros-kinetic-turtlebot -y
 
-sudo apt-get install ros-kinetic-turtlebot-apps
+sudo apt-get install ros-kinetic-turtlebot-apps -y
 
-sudo apt-get install ros-kinetic-turtlebot-interactions
+sudo apt-get install ros-kinetic-turtlebot-interactions -y
 
-sudo apt-get install ros-kinetic-turtlebot-simulator
+sudo apt-get install ros-kinetic-turtlebot-simulator -y
 
-sudo apt-get install ros-kinetic-ar-track-alvar-msgs
+sudo apt-get install ros-kinetic-ar-track-alvar-msgs -y
 ```
 
 Проверка корректности установки:
